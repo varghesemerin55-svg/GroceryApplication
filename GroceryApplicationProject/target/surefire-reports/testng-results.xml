@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-01-15T18:37:19 AST" name="Suite" finished-at="2026-01-15T18:37:50 AST" duration-ms="31007">
+    <groups>
+      <group name="Smoke">
+        <method signature="LoginTest.validateUserLoginWithValidCredentials()[pri:1, instance:testscripts.LoginTest@7fd50002]" name="validateUserLoginWithValidCredentials" class="testscripts.LoginTest"/>
+        <method signature="LoginTest.validateUserWithInvalidUserNameAndInValidPassword(java.lang.String,java.lang.String)[pri:4, instance:testscripts.LoginTest@7fd50002]" name="validateUserWithInvalidUserNameAndInValidPassword" class="testscripts.LoginTest"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2026-01-15T18:37:19 AST" name="Test" finished-at="2026-01-15T18:37:50 AST" duration-ms="31007">
+      <class name="testscripts.LoginTest">
+        <test-method is-config="true" signature="initialiseBrowser(java.lang.String)[pri:0, instance:testscripts.LoginTest@7fd50002]" started-at="2026-01-15T18:37:20 AST" name="initialiseBrowser" finished-at="2026-01-15T18:37:25 AST" duration-ms="5184" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialiseBrowser -->
+        <test-method signature="validateUserLoginWithValidCredentials()[pri:1, instance:testscripts.LoginTest@7fd50002]" started-at="2026-01-15T18:37:25 AST" name="validateUserLoginWithValidCredentials" description="User is trying to login with valid credentials" finished-at="2026-01-15T18:37:29 AST" duration-ms="4721" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUserLoginWithValidCredentials -->
+        <test-method is-config="true" signature="driverQuit(org.testng.ITestResult)[pri:0, instance:testscripts.LoginTest@7fd50002]" started-at="2026-01-15T18:37:29 AST" name="driverQuit" finished-at="2026-01-15T18:37:29 AST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateUserLoginWithValidCredentials status=SUCCESS method=LoginTest.validateUserLoginWithValidCredentials()[pri:1, instance:testscripts.LoginTest@7fd50002] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverQuit -->
+        <test-method is-config="true" signature="initialiseBrowser(java.lang.String)[pri:0, instance:testscripts.LoginTest@7fd50002]" started-at="2026-01-15T18:37:29 AST" name="initialiseBrowser" finished-at="2026-01-15T18:37:33 AST" duration-ms="3723" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialiseBrowser -->
+        <test-method signature="validateUserWithInvalidUserNameValidPassword()[pri:2, instance:testscripts.LoginTest@7fd50002]" started-at="2026-01-15T18:37:33 AST" name="validateUserWithInvalidUserNameValidPassword" description="User is trying to login with invalid user name and valid password" finished-at="2026-01-15T18:37:34 AST" duration-ms="960" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUserWithInvalidUserNameValidPassword -->
+        <test-method is-config="true" signature="driverQuit(org.testng.ITestResult)[pri:0, instance:testscripts.LoginTest@7fd50002]" started-at="2026-01-15T18:37:34 AST" name="driverQuit" finished-at="2026-01-15T18:37:34 AST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateUserWithInvalidUserNameValidPassword status=SUCCESS method=LoginTest.validateUserWithInvalidUserNameValidPassword()[pri:2, instance:testscripts.LoginTest@7fd50002] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverQuit -->
+        <test-method is-config="true" signature="initialiseBrowser(java.lang.String)[pri:0, instance:testscripts.LoginTest@7fd50002]" started-at="2026-01-15T18:37:34 AST" name="initialiseBrowser" finished-at="2026-01-15T18:37:38 AST" duration-ms="4038" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialiseBrowser -->
+        <test-method signature="validateUserWithvalidUserNameInValidPassword()[pri:3, instance:testscripts.LoginTest@7fd50002]" started-at="2026-01-15T18:37:38 AST" name="validateUserWithvalidUserNameInValidPassword" description="User is trying to login with valid user name and invalid password" finished-at="2026-01-15T18:37:39 AST" duration-ms="1151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUserWithvalidUserNameInValidPassword -->
+        <test-method is-config="true" signature="driverQuit(org.testng.ITestResult)[pri:0, instance:testscripts.LoginTest@7fd50002]" started-at="2026-01-15T18:37:39 AST" name="driverQuit" finished-at="2026-01-15T18:37:39 AST" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateUserWithvalidUserNameInValidPassword status=SUCCESS method=LoginTest.validateUserWithvalidUserNameInValidPassword()[pri:3, instance:testscripts.LoginTest@7fd50002] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverQuit -->
+        <test-method is-config="true" signature="initialiseBrowser(java.lang.String)[pri:0, instance:testscripts.LoginTest@7fd50002]" started-at="2026-01-15T18:37:39 AST" name="initialiseBrowser" finished-at="2026-01-15T18:37:43 AST" duration-ms="4129" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialiseBrowser -->
+        <test-method signature="validateUserWithInvalidUserNameAndInValidPassword(java.lang.String,java.lang.String)[pri:4, instance:testscripts.LoginTest@7fd50002]" started-at="2026-01-15T18:37:43 AST" name="validateUserWithInvalidUserNameAndInValidPassword" description="User is trying to login with invalid credentials" data-provider="loginProvider" finished-at="2026-01-15T18:37:45 AST" duration-ms="1239" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin22]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUserWithInvalidUserNameAndInValidPassword -->
+        <test-method is-config="true" signature="driverQuit(org.testng.ITestResult)[pri:0, instance:testscripts.LoginTest@7fd50002]" started-at="2026-01-15T18:37:45 AST" name="driverQuit" finished-at="2026-01-15T18:37:45 AST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateUserWithInvalidUserNameAndInValidPassword status=SUCCESS method=LoginTest.validateUserWithInvalidUserNameAndInValidPassword(java.lang.String,java.lang.String)[pri:4, instance:testscripts.LoginTest@7fd50002] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverQuit -->
+        <test-method is-config="true" signature="initialiseBrowser(java.lang.String)[pri:0, instance:testscripts.LoginTest@7fd50002]" started-at="2026-01-15T18:37:45 AST" name="initialiseBrowser" finished-at="2026-01-15T18:37:49 AST" duration-ms="4474" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialiseBrowser -->
+        <test-method signature="validateUserWithInvalidUserNameAndInValidPassword(java.lang.String,java.lang.String)[pri:4, instance:testscripts.LoginTest@7fd50002]" started-at="2026-01-15T18:37:49 AST" name="validateUserWithInvalidUserNameAndInValidPassword" description="User is trying to login with invalid credentials" data-provider="loginProvider" finished-at="2026-01-15T18:37:50 AST" duration-ms="1298" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUserWithInvalidUserNameAndInValidPassword -->
+        <test-method is-config="true" signature="driverQuit(org.testng.ITestResult)[pri:0, instance:testscripts.LoginTest@7fd50002]" started-at="2026-01-15T18:37:50 AST" name="driverQuit" finished-at="2026-01-15T18:37:50 AST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateUserWithInvalidUserNameAndInValidPassword status=SUCCESS method=LoginTest.validateUserWithInvalidUserNameAndInValidPassword(java.lang.String,java.lang.String)[pri:4, instance:testscripts.LoginTest@7fd50002] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverQuit -->
+      </class> <!-- testscripts.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
